@@ -10,6 +10,7 @@ h2{
 }
 p{
     color: #006266;
+    text-align: justify;
 }
 .orange-heighlight{
     color: #ff4d4d;
@@ -25,6 +26,7 @@ p{
     width: 70%;
     margin-top: -140px;
     margin-left: 140px;
+    border-radius: 50%;
     
 }
 .top-banner{
@@ -60,6 +62,7 @@ section{
     box-shadow: 10px 10px 40px #78e08f;
     border-radius: 10px;
     background-color: white;
+    height: 350px;
 }
 .experience-area{
 
@@ -83,4 +86,60 @@ footer p{
     text-align: center;
     color: #b71540;
     font-size: 12px;
+}
+
+@media (max-width: 700px){
+    body{
+        background-color: white;
+        
+    }
+    h1, h2{
+        font-size: 16px;
+
+    }
+    p{
+        font-size: 16px;
+    }
+    .orange-heighlight{
+        font-size: 16px;
+        color: brown;
+    }
+    .half-width{
+        width: 70%;
+        float: none;
+        padding: 20px;
+        font-size: 16px;
+        
+    }
+    .half-width img{
+        width: 100%;
+        float: none;
+        margin: 1px;
+    }
+    .dream-area img{
+        width: 100%;
+        float: none;
+        margin-top: 200px;
+    }
+    .big-dream{
+        width: 50%;
+        float: none;
+     }
+     .single-experience{
+         width: 50%;
+         margin-top: 340px;
+     }
+     #baby-web{
+         margin-top: 5px;
+     }
+     footer{
+         width: 100%;
+         float: none;
+         margin-top: 660px;
+     }
+
+
+
+
+
 }
